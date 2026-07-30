@@ -1,37 +1,23 @@
-# Deploy Dog Bar Character Bible to Vercel
+# Deploy Dog Bar Character Bible
 
-## Quick deploy (GitHub → Vercel)
+## Vercel
 
-1. Create a new GitHub repo (private is fine).
-2. From this project folder:
-   ```bash
-   git init
-   git add .
-   git commit -m "Dog Bar character bible — Rose, Betty, Luna"
-   git branch -M main
-   git remote add origin https://github.com/YOUR_USER/dog-bar-bible.git
-   git push -u origin main
-   ```
-3. Go to [vercel.com/new](https://vercel.com/new) → **Import** that repo.
-4. Leave defaults (build: `npm run build`).
-5. Deploy. You get a URL like `https://dog-bar-bible.vercel.app`.
+1. Import the GitHub repo
+2. Framework: Vite / TanStack Start (auto-detect)
+3. Build: `npm run build`
+4. Output handled by Nitro `vercel` preset
 
-### Routes after deploy
-| Path | Page |
-|------|------|
+## Routes after deploy
+
+| Path | Character |
+|------|-----------|
 | `/` | Rose |
 | `/betty` | Thick Betty |
 | `/luna` | Luna |
-
-## CLI deploy (if you have a Vercel token)
-
-```bash
-# Create token: https://vercel.com/account/tokens
-export VERCEL_TOKEN=your_token_here
-npx vercel --token "$VERCEL_TOKEN" --yes --prod
-```
+| `/summer` | Summer Wins |
 
 ## Notes
-- No database required for the character bible (PGLite fallback skips migrate without `DATABASE_URL`).
-- Portrait images live in `/public` and ship with the deploy.
-- Keep the repo private if portraits are for personal use only.
+
+- Public portraits are **clothed SFW stills only**
+- Explicit looks are text scene cards (identity lock + notes)
+- Copy lock prompts from each character page for Imagine

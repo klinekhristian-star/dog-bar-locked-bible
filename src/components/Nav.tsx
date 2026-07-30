@@ -12,7 +12,7 @@ const sectionLinks = [
 export function Nav({
   character = "rose",
 }: {
-  character?: "rose" | "betty" | "luna";
+  character?: "rose" | "betty" | "luna" | "summer";
 }) {
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-bg/85 backdrop-blur-md">
@@ -32,12 +32,13 @@ export function Nav({
           </div>
         </Link>
 
-        <div className="flex items-center gap-0.5 rounded-full border border-border bg-surface p-1 overflow-x-auto max-w-[60vw] sm:max-w-none">
+        <div className="flex items-center gap-0.5 rounded-full border border-border bg-surface p-1 overflow-x-auto max-w-[62vw] sm:max-w-none">
           {(
             [
               { to: "/", id: "rose", label: "Rose" },
               { to: "/betty", id: "betty", label: "Betty" },
               { to: "/luna", id: "luna", label: "Luna" },
+              { to: "/summer", id: "summer", label: "Summer" },
             ] as const
           ).map((c) => (
             <Link

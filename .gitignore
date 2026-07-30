@@ -12,3 +12,5 @@ node_modules/.nitro/
 screenshots/
 artifacts/
 tmp/
+attachments/
+.grok/

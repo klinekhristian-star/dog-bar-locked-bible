@@ -1,18 +1,15 @@
 # Dog Bar Locked Bible
 
-Photoreal character bible for **Rose**, **Thick Betty**, and **Luna**.
+Photoreal identity locks for **Rose**, **Thick Betty**, **Luna**, and **Summer Wins**.
 
-## Routes (full app)
+## Routes
 
 | Path | Character |
 |------|-----------|
 | `/` | Rose |
 | `/betty` | Thick Betty |
 | `/luna` | Luna |
-
-## Static one-pager
-
-Open `dog-bar-locked-bible.html` (or rename to `index.html` for static hosting).
+| `/summer` | Summer Wins |
 
 ## Develop
 
@@ -23,4 +20,4 @@ npm run dev
 
 ## Deploy (Vercel)
 
-Import this repo in Vercel. Build: `npm run build`.
+Import this repo in [Vercel](https://vercel.com/new). Build command: `npm run build`.

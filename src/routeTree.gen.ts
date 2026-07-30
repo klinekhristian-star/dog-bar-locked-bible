@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as BettyRouteImport } from './routes/betty'
 import { Route as LunaRouteImport } from './routes/luna'
+import { Route as SummerRouteImport } from './routes/summer'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -28,35 +29,44 @@ const LunaRoute = LunaRouteImport.update({
   path: '/luna',
   getParentRoute: () => rootRouteImport,
 } as any)
+const SummerRoute = SummerRouteImport.update({
+  id: '/summer',
+  path: '/summer',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/betty': typeof BettyRoute
   '/luna': typeof LunaRoute
+  '/summer': typeof SummerRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/betty': typeof BettyRoute
   '/luna': typeof LunaRoute
+  '/summer': typeof SummerRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/betty': typeof BettyRoute
   '/luna': typeof LunaRoute
+  '/summer': typeof SummerRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/betty' | '/luna'
+  fullPaths: '/' | '/betty' | '/luna' | '/summer'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/betty' | '/luna'
-  id: '__root__' | '/' | '/betty' | '/luna'
+  to: '/' | '/betty' | '/luna' | '/summer'
+  id: '__root__' | '/' | '/betty' | '/luna' | '/summer'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BettyRoute: typeof BettyRoute
   LunaRoute: typeof LunaRoute
+  SummerRoute: typeof SummerRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -82,6 +92,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LunaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/summer': {
+      id: '/summer'
+      path: '/summer'
+      fullPath: '/summer'
+      preLoaderRoute: typeof SummerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -89,6 +106,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BettyRoute: BettyRoute,
   LunaRoute: LunaRoute,
+  SummerRoute: SummerRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
