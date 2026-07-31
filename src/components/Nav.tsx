@@ -19,7 +19,8 @@ export function Nav({
     | "summer"
     | "kai"
     | "zuri"
-    | "byron";
+    | "byron"
+    | "rick";
 }) {
   return (
     <header className="sticky top-0 z-40 border-b border-border/80 bg-bg/85 backdrop-blur-md">
@@ -39,7 +40,7 @@ export function Nav({
           </div>
         </Link>
 
-        <div className="flex items-center gap-0.5 rounded-full border border-border bg-surface p-1 overflow-x-auto max-w-[75vw] sm:max-w-none">
+        <div className="flex items-center gap-0.5 rounded-full border border-border bg-surface p-1 overflow-x-auto max-w-[78vw] sm:max-w-none">
           {(
             [
               { to: "/", id: "rose", label: "Rose" },
@@ -49,6 +50,7 @@ export function Nav({
               { to: "/kai", id: "kai", label: "Kai" },
               { to: "/zuri", id: "zuri", label: "Zuri" },
               { to: "/byron", id: "byron", label: "Byron" },
+              { to: "/rick", id: "rick", label: "Rick" },
             ] as const
           ).map((c) => (
             <Link
