@@ -51,6 +51,7 @@ export function CharacterBible({
   const [copied, setCopied] = useState(false);
   const look =
     character.looks.find((l) => l.id === activeLook) ?? character.looks[0];
+  const roleShort = character.role.split("·")[0]?.trim() || character.role;
 
   async function copyLock() {
     try {
@@ -108,7 +109,9 @@ export function CharacterBible({
               <dt className="font-mono text-[10px] uppercase tracking-wider text-subtle">
                 Role
               </dt>
-              <dd className="mt-1 font-display text-lg leading-snug text-fg">Bartender</dd>
+              <dd className="mt-1 font-display text-lg leading-snug text-fg">
+                {roleShort}
+              </dd>
             </div>
             <div>
               <dt className="font-mono text-[10px] uppercase tracking-wider text-subtle">
@@ -182,7 +185,7 @@ export function CharacterBible({
               </ul>
             </div>
             <div className="rounded-xl border border-border bg-surface p-5 sm:p-6">
-              <h3 className="font-display text-xl text-fg">How she speaks</h3>
+              <h3 className="font-display text-xl text-fg">Voice</h3>
               <ul className="mt-4 space-y-3">
                 {character.voice.map((line) => (
                   <li key={line} className="flex gap-3 text-sm text-muted">

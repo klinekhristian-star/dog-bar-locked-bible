@@ -17,9 +17,10 @@
 | `/summer` | Summer Wins |
 | `/kai` | Kai |
 | `/zuri` | Zuri |
+| `/byron` | Byron "Bouncer" |
 
 ## Notes
 
-- Public portraits are **clothed / styled SFW stills only**
+- Public portraits are **clothed / gym / torso SFW stills only**
 - Explicit looks are text scene cards (identity lock + notes)
 - Copy lock prompts from each character page for Imagine

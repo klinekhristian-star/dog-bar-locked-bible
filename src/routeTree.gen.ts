@@ -11,6 +11,7 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as BettyRouteImport } from './routes/betty'
+import { Route as ByronRouteImport } from './routes/byron'
 import { Route as KaiRouteImport } from './routes/kai'
 import { Route as LunaRouteImport } from './routes/luna'
 import { Route as SummerRouteImport } from './routes/summer'
@@ -24,6 +25,11 @@ const IndexRoute = IndexRouteImport.update({
 const BettyRoute = BettyRouteImport.update({
   id: '/betty',
   path: '/betty',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ByronRoute = ByronRouteImport.update({
+  id: '/byron',
+  path: '/byron',
   getParentRoute: () => rootRouteImport,
 } as any)
 const KaiRoute = KaiRouteImport.update({
@@ -50,6 +56,7 @@ const ZuriRoute = ZuriRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/betty': typeof BettyRoute
+  '/byron': typeof ByronRoute
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
   '/summer': typeof SummerRoute
@@ -58,6 +65,7 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/betty': typeof BettyRoute
+  '/byron': typeof ByronRoute
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
   '/summer': typeof SummerRoute
@@ -67,6 +75,7 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/betty': typeof BettyRoute
+  '/byron': typeof ByronRoute
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
   '/summer': typeof SummerRoute
@@ -74,15 +83,24 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/betty' | '/kai' | '/luna' | '/summer' | '/zuri'
+  fullPaths: '/' | '/betty' | '/byron' | '/kai' | '/luna' | '/summer' | '/zuri'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/betty' | '/kai' | '/luna' | '/summer' | '/zuri'
-  id: '__root__' | '/' | '/betty' | '/kai' | '/luna' | '/summer' | '/zuri'
+  to: '/' | '/betty' | '/byron' | '/kai' | '/luna' | '/summer' | '/zuri'
+  id:
+    | '__root__'
+    | '/'
+    | '/betty'
+    | '/byron'
+    | '/kai'
+    | '/luna'
+    | '/summer'
+    | '/zuri'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BettyRoute: typeof BettyRoute
+  ByronRoute: typeof ByronRoute
   KaiRoute: typeof KaiRoute
   LunaRoute: typeof LunaRoute
   SummerRoute: typeof SummerRoute
@@ -103,6 +121,13 @@ declare module '@tanstack/react-router' {
       path: '/betty'
       fullPath: '/betty'
       preLoaderRoute: typeof BettyRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/byron': {
+      id: '/byron'
+      path: '/byron'
+      fullPath: '/byron'
+      preLoaderRoute: typeof ByronRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/kai': {
@@ -139,6 +164,7 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BettyRoute: BettyRoute,
+  ByronRoute: ByronRoute,
   KaiRoute: KaiRoute,
   LunaRoute: LunaRoute,
   SummerRoute: SummerRoute,
