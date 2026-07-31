@@ -15,6 +15,7 @@
 | `/betty` | Thick Betty |
 | `/luna` | Luna |
 | `/summer` | Summer Wins |
+| `/kai` | Kai |
 
 ## Notes
 

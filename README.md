@@ -1,6 +1,6 @@
 # Dog Bar Locked Bible
 
-Photoreal identity locks for **Rose**, **Thick Betty**, **Luna**, and **Summer Wins**.
+Photoreal identity locks for **Rose**, **Thick Betty**, **Luna**, **Summer Wins**, and **Kai**.
 
 ## Routes
 
@@ -10,6 +10,7 @@ Photoreal identity locks for **Rose**, **Thick Betty**, **Luna**, and **Summer W
 | `/betty` | Thick Betty |
 | `/luna` | Luna |
 | `/summer` | Summer Wins |
+| `/kai` | Kai |
 
 ## Develop
 
