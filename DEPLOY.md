@@ -16,9 +16,10 @@
 | `/luna` | Luna |
 | `/summer` | Summer Wins |
 | `/kai` | Kai |
+| `/zuri` | Zuri |
 
 ## Notes
 
-- Public portraits are **clothed SFW stills only**
+- Public portraits are **clothed / styled SFW stills only**
 - Explicit looks are text scene cards (identity lock + notes)
 - Copy lock prompts from each character page for Imagine

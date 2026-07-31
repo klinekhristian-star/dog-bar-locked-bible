@@ -14,6 +14,7 @@ import { Route as BettyRouteImport } from './routes/betty'
 import { Route as KaiRouteImport } from './routes/kai'
 import { Route as LunaRouteImport } from './routes/luna'
 import { Route as SummerRouteImport } from './routes/summer'
+import { Route as ZuriRouteImport } from './routes/zuri'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
@@ -40,6 +41,11 @@ const SummerRoute = SummerRouteImport.update({
   path: '/summer',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ZuriRoute = ZuriRouteImport.update({
+  id: '/zuri',
+  path: '/zuri',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -47,6 +53,7 @@ export interface FileRoutesByFullPath {
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
   '/summer': typeof SummerRoute
+  '/zuri': typeof ZuriRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -54,6 +61,7 @@ export interface FileRoutesByTo {
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
   '/summer': typeof SummerRoute
+  '/zuri': typeof ZuriRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -62,13 +70,14 @@ export interface FileRoutesById {
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
   '/summer': typeof SummerRoute
+  '/zuri': typeof ZuriRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/betty' | '/kai' | '/luna' | '/summer'
+  fullPaths: '/' | '/betty' | '/kai' | '/luna' | '/summer' | '/zuri'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/betty' | '/kai' | '/luna' | '/summer'
-  id: '__root__' | '/' | '/betty' | '/kai' | '/luna' | '/summer'
+  to: '/' | '/betty' | '/kai' | '/luna' | '/summer' | '/zuri'
+  id: '__root__' | '/' | '/betty' | '/kai' | '/luna' | '/summer' | '/zuri'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -77,6 +86,7 @@ export interface RootRouteChildren {
   KaiRoute: typeof KaiRoute
   LunaRoute: typeof LunaRoute
   SummerRoute: typeof SummerRoute
+  ZuriRoute: typeof ZuriRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -116,6 +126,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SummerRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/zuri': {
+      id: '/zuri'
+      path: '/zuri'
+      fullPath: '/zuri'
+      preLoaderRoute: typeof ZuriRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -125,6 +142,7 @@ const rootRouteChildren: RootRouteChildren = {
   KaiRoute: KaiRoute,
   LunaRoute: LunaRoute,
   SummerRoute: SummerRoute,
+  ZuriRoute: ZuriRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
