@@ -15,6 +15,7 @@
 | `/betty` | Thick Betty |
 | `/luna` | Luna |
 | `/summer` | Summer Wins |
+| `/marnie` | Marnie |
 | `/kai` | Kai |
 | `/zuri` | Zuri |
 | `/byron` | Byron "Bouncer" |

@@ -17,6 +17,7 @@ export function Nav({
     | "betty"
     | "luna"
     | "summer"
+    | "marnie"
     | "kai"
     | "zuri"
     | "byron"
@@ -47,6 +48,7 @@ export function Nav({
               { to: "/betty", id: "betty", label: "Betty" },
               { to: "/luna", id: "luna", label: "Luna" },
               { to: "/summer", id: "summer", label: "Summer" },
+              { to: "/marnie", id: "marnie", label: "Marnie" },
               { to: "/kai", id: "kai", label: "Kai" },
               { to: "/zuri", id: "zuri", label: "Zuri" },
               { to: "/byron", id: "byron", label: "Byron" },

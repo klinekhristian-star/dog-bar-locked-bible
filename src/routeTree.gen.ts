@@ -14,6 +14,7 @@ import { Route as BettyRouteImport } from './routes/betty'
 import { Route as ByronRouteImport } from './routes/byron'
 import { Route as KaiRouteImport } from './routes/kai'
 import { Route as LunaRouteImport } from './routes/luna'
+import { Route as MarnieRouteImport } from './routes/marnie'
 import { Route as RickRouteImport } from './routes/rick'
 import { Route as SummerRouteImport } from './routes/summer'
 import { Route as ZuriRouteImport } from './routes/zuri'
@@ -43,6 +44,11 @@ const LunaRoute = LunaRouteImport.update({
   path: '/luna',
   getParentRoute: () => rootRouteImport,
 } as any)
+const MarnieRoute = MarnieRouteImport.update({
+  id: '/marnie',
+  path: '/marnie',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RickRoute = RickRouteImport.update({
   id: '/rick',
   path: '/rick',
@@ -65,6 +71,7 @@ export interface FileRoutesByFullPath {
   '/byron': typeof ByronRoute
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
+  '/marnie': typeof MarnieRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
   '/zuri': typeof ZuriRoute
@@ -75,6 +82,7 @@ export interface FileRoutesByTo {
   '/byron': typeof ByronRoute
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
+  '/marnie': typeof MarnieRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
   '/zuri': typeof ZuriRoute
@@ -86,6 +94,7 @@ export interface FileRoutesById {
   '/byron': typeof ByronRoute
   '/kai': typeof KaiRoute
   '/luna': typeof LunaRoute
+  '/marnie': typeof MarnieRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
   '/zuri': typeof ZuriRoute
@@ -93,10 +102,26 @@ export interface FileRoutesById {
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
-    '/' | '/betty' | '/byron' | '/kai' | '/luna' | '/rick' | '/summer' | '/zuri'
+    | '/'
+    | '/betty'
+    | '/byron'
+    | '/kai'
+    | '/luna'
+    | '/marnie'
+    | '/rick'
+    | '/summer'
+    | '/zuri'
   fileRoutesByTo: FileRoutesByTo
   to:
-    '/' | '/betty' | '/byron' | '/kai' | '/luna' | '/rick' | '/summer' | '/zuri'
+    | '/'
+    | '/betty'
+    | '/byron'
+    | '/kai'
+    | '/luna'
+    | '/marnie'
+    | '/rick'
+    | '/summer'
+    | '/zuri'
   id:
     | '__root__'
     | '/'
@@ -104,6 +129,7 @@ export interface FileRouteTypes {
     | '/byron'
     | '/kai'
     | '/luna'
+    | '/marnie'
     | '/rick'
     | '/summer'
     | '/zuri'
@@ -115,6 +141,7 @@ export interface RootRouteChildren {
   ByronRoute: typeof ByronRoute
   KaiRoute: typeof KaiRoute
   LunaRoute: typeof LunaRoute
+  MarnieRoute: typeof MarnieRoute
   RickRoute: typeof RickRoute
   SummerRoute: typeof SummerRoute
   ZuriRoute: typeof ZuriRoute
@@ -157,6 +184,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LunaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/marnie': {
+      id: '/marnie'
+      path: '/marnie'
+      fullPath: '/marnie'
+      preLoaderRoute: typeof MarnieRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/rick': {
       id: '/rick'
       path: '/rick'
@@ -187,6 +221,7 @@ const rootRouteChildren: RootRouteChildren = {
   ByronRoute: ByronRoute,
   KaiRoute: KaiRoute,
   LunaRoute: LunaRoute,
+  MarnieRoute: MarnieRoute,
   RickRoute: RickRoute,
   SummerRoute: SummerRoute,
   ZuriRoute: ZuriRoute,
