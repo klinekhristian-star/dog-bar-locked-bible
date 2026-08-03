@@ -16,9 +16,11 @@ import { Route as KaiRouteImport } from './routes/kai'
 import { Route as LunaRouteImport } from './routes/luna'
 import { Route as MaileiRouteImport } from './routes/mailei'
 import { Route as MarnieRouteImport } from './routes/marnie'
+import { Route as NeeraRouteImport } from './routes/neera'
 import { Route as RickRouteImport } from './routes/rick'
 import { Route as SummerRouteImport } from './routes/summer'
 import { Route as TripletsRouteImport } from './routes/triplets'
+import { Route as VixenRouteImport } from './routes/vixen'
 import { Route as ZuriRouteImport } from './routes/zuri'
 
 const IndexRoute = IndexRouteImport.update({
@@ -56,6 +58,11 @@ const MarnieRoute = MarnieRouteImport.update({
   path: '/marnie',
   getParentRoute: () => rootRouteImport,
 } as any)
+const NeeraRoute = NeeraRouteImport.update({
+  id: '/neera',
+  path: '/neera',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RickRoute = RickRouteImport.update({
   id: '/rick',
   path: '/rick',
@@ -69,6 +76,11 @@ const SummerRoute = SummerRouteImport.update({
 const TripletsRoute = TripletsRouteImport.update({
   id: '/triplets',
   path: '/triplets',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VixenRoute = VixenRouteImport.update({
+  id: '/vixen',
+  path: '/vixen',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ZuriRoute = ZuriRouteImport.update({
@@ -85,9 +97,11 @@ export interface FileRoutesByFullPath {
   '/luna': typeof LunaRoute
   '/mailei': typeof MaileiRoute
   '/marnie': typeof MarnieRoute
+  '/neera': typeof NeeraRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
   '/triplets': typeof TripletsRoute
+  '/vixen': typeof VixenRoute
   '/zuri': typeof ZuriRoute
 }
 export interface FileRoutesByTo {
@@ -98,9 +112,11 @@ export interface FileRoutesByTo {
   '/luna': typeof LunaRoute
   '/mailei': typeof MaileiRoute
   '/marnie': typeof MarnieRoute
+  '/neera': typeof NeeraRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
   '/triplets': typeof TripletsRoute
+  '/vixen': typeof VixenRoute
   '/zuri': typeof ZuriRoute
 }
 export interface FileRoutesById {
@@ -112,9 +128,11 @@ export interface FileRoutesById {
   '/luna': typeof LunaRoute
   '/mailei': typeof MaileiRoute
   '/marnie': typeof MarnieRoute
+  '/neera': typeof NeeraRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
   '/triplets': typeof TripletsRoute
+  '/vixen': typeof VixenRoute
   '/zuri': typeof ZuriRoute
 }
 export interface FileRouteTypes {
@@ -127,9 +145,11 @@ export interface FileRouteTypes {
     | '/luna'
     | '/mailei'
     | '/marnie'
+    | '/neera'
     | '/rick'
     | '/summer'
     | '/triplets'
+    | '/vixen'
     | '/zuri'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -140,9 +160,11 @@ export interface FileRouteTypes {
     | '/luna'
     | '/mailei'
     | '/marnie'
+    | '/neera'
     | '/rick'
     | '/summer'
     | '/triplets'
+    | '/vixen'
     | '/zuri'
   id:
     | '__root__'
@@ -153,9 +175,11 @@ export interface FileRouteTypes {
     | '/luna'
     | '/mailei'
     | '/marnie'
+    | '/neera'
     | '/rick'
     | '/summer'
     | '/triplets'
+    | '/vixen'
     | '/zuri'
   fileRoutesById: FileRoutesById
 }
@@ -167,9 +191,11 @@ export interface RootRouteChildren {
   LunaRoute: typeof LunaRoute
   MaileiRoute: typeof MaileiRoute
   MarnieRoute: typeof MarnieRoute
+  NeeraRoute: typeof NeeraRoute
   RickRoute: typeof RickRoute
   SummerRoute: typeof SummerRoute
   TripletsRoute: typeof TripletsRoute
+  VixenRoute: typeof VixenRoute
   ZuriRoute: typeof ZuriRoute
 }
 
@@ -224,6 +250,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MarnieRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/neera': {
+      id: '/neera'
+      path: '/neera'
+      fullPath: '/neera'
+      preLoaderRoute: typeof NeeraRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/rick': {
       id: '/rick'
       path: '/rick'
@@ -245,6 +278,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof TripletsRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/vixen': {
+      id: '/vixen'
+      path: '/vixen'
+      fullPath: '/vixen'
+      preLoaderRoute: typeof VixenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/zuri': {
       id: '/zuri'
       path: '/zuri'
@@ -263,9 +303,11 @@ const rootRouteChildren: RootRouteChildren = {
   LunaRoute: LunaRoute,
   MaileiRoute: MaileiRoute,
   MarnieRoute: MarnieRoute,
+  NeeraRoute: NeeraRoute,
   RickRoute: RickRoute,
   SummerRoute: SummerRoute,
   TripletsRoute: TripletsRoute,
+  VixenRoute: VixenRoute,
   ZuriRoute: ZuriRoute,
 }
 export const routeTree = rootRouteImport
