@@ -28,11 +28,11 @@ function MaiLeiPage() {
       <CharacterBible
         character={mailei}
         lockPrompt={lockPrompt}
-        portraitSrc="/mailei-portrait.jpg"
-        portraitAlt="Mai Lei — photoreal Chinese beauty with long black hair and porcelain skin"
-        portraitCaption="Long black hair · porcelain skin · delicate East Asian features · quiet elegance · no cartoon"
+        portraitSrc="/mailei-patio.jpg"
+        portraitAlt="Mai Lei — photoreal Chinese beauty on Dog Bar patio at golden hour"
+        portraitCaption="Dog Bar crop · long black hair · porcelain skin · golden hour · no cartoon"
         accentLabel="Dog Bar · Mai Lei lock"
-        defaultLookId="portrait"
+        defaultLookId="patio"
       />
     </div>
   );

@@ -28,9 +28,9 @@ function IslaPage() {
       <CharacterBible
         character={isla}
         lockPrompt={lockPrompt}
-        portraitSrc="/isla-portrait.jpg"
+        portraitSrc=""
         portraitAlt="Isla Maren — photoreal brunette with freckles and soft voluptuous hourglass"
-        portraitCaption="Brunette waves · freckles · hazel eyes · soft curves · no cartoon"
+        portraitCaption="Brunette waves · freckles · hazel eyes · soft curves · portrait still pending"
         accentLabel="Dog Bar · Isla lock"
         defaultLookId="portrait"
       />

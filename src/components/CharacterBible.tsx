@@ -125,11 +125,26 @@ export function CharacterBible({
         <div className="relative">
           <div className="overflow-hidden rounded-xl border border-border-strong bg-elevated shadow-[0_24px_80px_-20px_rgba(0,0,0,0.7)]">
             <div className="aspect-[3/4] relative bg-bg">
-              <img
-                src={look?.image ?? portraitSrc}
-                alt={portraitAlt}
-                className="absolute inset-0 h-full w-full object-cover object-[center_20%]"
-              />
+              {(look?.image ?? portraitSrc) ? (
+                <img
+                  src={look?.image ?? portraitSrc}
+                  alt={portraitAlt}
+                  className="absolute inset-0 h-full w-full object-cover object-[center_20%]"
+                  onError={(e) => {
+                    e.currentTarget.style.display = "none";
+                    const fallback = e.currentTarget.nextElementSibling as HTMLElement | null;
+                    if (fallback) fallback.style.display = "flex";
+                  }}
+                />
+              ) : null}
+              <div
+                className="absolute inset-0 hidden flex-col items-center justify-center gap-2 bg-elevated px-6 text-center"
+                style={{ display: (look?.image ?? portraitSrc) ? "none" : "flex" }}
+                aria-hidden
+              >
+                <p className="font-display text-lg text-fg">{character.name}</p>
+                <p className="text-xs text-muted">{portraitCaption}</p>
+              </div>
             </div>
             <div className="border-t border-border px-4 py-3 sm:px-5">
               <p className="font-mono text-[10px] uppercase tracking-wider text-subtle">
