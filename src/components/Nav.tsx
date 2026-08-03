@@ -20,6 +20,7 @@ export function Nav({
     | "marnie"
     | "kai"
     | "zuri"
+    | "mailei"
     | "byron"
     | "rick";
 }) {
@@ -51,6 +52,7 @@ export function Nav({
               { to: "/marnie", id: "marnie", label: "Marnie" },
               { to: "/kai", id: "kai", label: "Kai" },
               { to: "/zuri", id: "zuri", label: "Zuri" },
+              { to: "/mailei", id: "mailei", label: "Mai Lei" },
               { to: "/byron", id: "byron", label: "Byron" },
               { to: "/rick", id: "rick", label: "Rick" },
             ] as const
