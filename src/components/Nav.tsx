@@ -24,6 +24,7 @@ export function Nav({
     | "triplets"
     | "vixen"
     | "neera"
+    | "isla"
     | "byron"
     | "rick";
 }) {
@@ -58,6 +59,7 @@ export function Nav({
               { to: "/mailei", id: "mailei", label: "Mai Lei" },
               { to: "/vixen", id: "vixen", label: "Vixen" },
               { to: "/neera", id: "neera", label: "Neera" },
+              { to: "/isla", id: "isla", label: "Isla" },
               { to: "/triplets", id: "triplets", label: "Triplets" },
               { to: "/byron", id: "byron", label: "Byron" },
               { to: "/rick", id: "rick", label: "Rick" },
