@@ -69,34 +69,74 @@ export const isla = {
     {
       id: "portrait",
       name: "Patio portrait",
-      setting: "Golden hour · head & shoulders",
+      setting: "Dog Bar patio · golden hour",
       notes:
-        "Canonical face lock — brunette waves, freckles, hazel eyes, easy smile. Hero still for identity.",
+        "Canonical lock — brunette waves, freckles, hazel eyes, white tank + denim shorts, easy smile.",
       palette: ["#c4a070", "#e8d5b5", "#1a1a20", "#f59e0b"],
+      image: "/isla-portrait.jpg",
     },
     {
       id: "patio",
       name: "Dog Bar patio",
       setting: "Outdoor patio · golden hour",
       notes:
-        "White cropped tank + cut-off denim shorts, string lights soft behind, real laugh at camera.",
+        "White cropped tank + cut-off denim shorts, soft patio light, real laugh at camera.",
       palette: ["#f59e0b", "#e8d5b5", "#1a1a20", "#c4a070"],
+      image: "/isla-patio.jpg",
     },
     {
       id: "beach",
-      name: "Cream bikini · beach",
-      setting: "Ocean edge · golden hour",
+      name: "Brown bikini · beach",
+      setting: "Warm beach light · close-up",
       notes:
-        "Tiny cream string bikini, freckled wet skin, soft smile, ocean behind. Crew beach set.",
-      palette: ["#e8d5b5", "#f59e0b", "#3b82f6", "#1a1a20"],
+        "Mauve-brown triangle bikini, wind in hair, freckles locked, soft voluptuous body.",
+      palette: ["#e8d5b5", "#f59e0b", "#8b6914", "#1a1a20"],
+      image: "/isla-beach.jpg",
     },
     {
-      id: "brunch",
-      name: "Brunch service",
-      setting: "Sunny patio tables · morning",
+      id: "street",
+      name: "Yellow dress · city",
+      setting: "NYC sidewalk · golden hour",
       notes:
-        "Soft linen button-down tied at waist over tank, denim shorts, notepad in hand, warm mid-service smile.",
-      palette: ["#e8d5b5", "#c4a070", "#f5f0eb", "#1a1a20"],
+        "Yellow floral sundress, big open smile, freckles, soft curves — daytime energy.",
+      palette: ["#f5d76e", "#e8d5b5", "#c4a070", "#1a1a20"],
+      image: "/isla-street.jpg",
+    },
+    {
+      id: "surf",
+      name: "Silver bikini · surfboard",
+      setting: "Beach · late afternoon",
+      notes:
+        "Metallic silver micro bikini with surfboard, freckled skin, bright smile.",
+      palette: ["#c0c0c0", "#e8d5b5", "#3b82f6", "#f59e0b"],
+      image: "/isla-surf.jpg",
+    },
+    {
+      id: "climb",
+      name: "Coastal climb",
+      setting: "Cliff above beach · golden hour",
+      notes:
+        "Climbing harness and gear, athletic energy, freckles and smile locked.",
+      palette: ["#6b7c5c", "#c4a070", "#f59e0b", "#1a1a20"],
+      image: "/isla-climb.jpg",
+    },
+    {
+      id: "road",
+      name: "Coastal drive",
+      setting: "Red convertible · Pacific highway",
+      notes:
+        "Silver bikini, driving a red convertible along the coast at golden hour.",
+      palette: ["#c41e3a", "#c0c0c0", "#f59e0b", "#3b82f6"],
+      image: "/isla-road.jpg",
+    },
+    {
+      id: "soft",
+      name: "Soft studio",
+      setting: "Warm indoor light",
+      notes:
+        "Brown soft top, fuller body read, freckles and smile — quieter intimate still.",
+      palette: ["#6b4423", "#e8d5b5", "#c4a070", "#1a1a20"],
+      image: "/isla-soft.jpg",
     },
   ] as Look[],
   relationships: [
