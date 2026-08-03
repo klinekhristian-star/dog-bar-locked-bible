@@ -18,6 +18,7 @@ import { Route as MaileiRouteImport } from './routes/mailei'
 import { Route as MarnieRouteImport } from './routes/marnie'
 import { Route as RickRouteImport } from './routes/rick'
 import { Route as SummerRouteImport } from './routes/summer'
+import { Route as TripletsRouteImport } from './routes/triplets'
 import { Route as ZuriRouteImport } from './routes/zuri'
 
 const IndexRoute = IndexRouteImport.update({
@@ -65,6 +66,11 @@ const SummerRoute = SummerRouteImport.update({
   path: '/summer',
   getParentRoute: () => rootRouteImport,
 } as any)
+const TripletsRoute = TripletsRouteImport.update({
+  id: '/triplets',
+  path: '/triplets',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ZuriRoute = ZuriRouteImport.update({
   id: '/zuri',
   path: '/zuri',
@@ -81,6 +87,7 @@ export interface FileRoutesByFullPath {
   '/marnie': typeof MarnieRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
+  '/triplets': typeof TripletsRoute
   '/zuri': typeof ZuriRoute
 }
 export interface FileRoutesByTo {
@@ -93,6 +100,7 @@ export interface FileRoutesByTo {
   '/marnie': typeof MarnieRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
+  '/triplets': typeof TripletsRoute
   '/zuri': typeof ZuriRoute
 }
 export interface FileRoutesById {
@@ -106,6 +114,7 @@ export interface FileRoutesById {
   '/marnie': typeof MarnieRoute
   '/rick': typeof RickRoute
   '/summer': typeof SummerRoute
+  '/triplets': typeof TripletsRoute
   '/zuri': typeof ZuriRoute
 }
 export interface FileRouteTypes {
@@ -120,6 +129,7 @@ export interface FileRouteTypes {
     | '/marnie'
     | '/rick'
     | '/summer'
+    | '/triplets'
     | '/zuri'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -132,6 +142,7 @@ export interface FileRouteTypes {
     | '/marnie'
     | '/rick'
     | '/summer'
+    | '/triplets'
     | '/zuri'
   id:
     | '__root__'
@@ -144,6 +155,7 @@ export interface FileRouteTypes {
     | '/marnie'
     | '/rick'
     | '/summer'
+    | '/triplets'
     | '/zuri'
   fileRoutesById: FileRoutesById
 }
@@ -157,6 +169,7 @@ export interface RootRouteChildren {
   MarnieRoute: typeof MarnieRoute
   RickRoute: typeof RickRoute
   SummerRoute: typeof SummerRoute
+  TripletsRoute: typeof TripletsRoute
   ZuriRoute: typeof ZuriRoute
 }
 
@@ -225,6 +238,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SummerRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/triplets': {
+      id: '/triplets'
+      path: '/triplets'
+      fullPath: '/triplets'
+      preLoaderRoute: typeof TripletsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/zuri': {
       id: '/zuri'
       path: '/zuri'
@@ -245,6 +265,7 @@ const rootRouteChildren: RootRouteChildren = {
   MarnieRoute: MarnieRoute,
   RickRoute: RickRoute,
   SummerRoute: SummerRoute,
+  TripletsRoute: TripletsRoute,
   ZuriRoute: ZuriRoute,
 }
 export const routeTree = rootRouteImport
