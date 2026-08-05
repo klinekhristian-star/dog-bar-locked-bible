@@ -27,6 +27,7 @@ export function Nav({
     | "isla"
     | "kasia"
     | "nastia"
+    | "amara"
     | "byron"
     | "rick";
 }) {
@@ -64,6 +65,7 @@ export function Nav({
               { to: "/isla", id: "isla", label: "Isla" },
               { to: "/kasia", id: "kasia", label: "Kasia" },
               { to: "/nastia", id: "nastia", label: "Nastia" },
+              { to: "/amara", id: "amara", label: "Amara" },
               { to: "/triplets", id: "triplets", label: "Triplets" },
               { to: "/byron", id: "byron", label: "Byron" },
               { to: "/rick", id: "rick", label: "Rick" },
