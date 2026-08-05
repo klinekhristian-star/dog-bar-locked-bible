@@ -29,6 +29,7 @@ export function Nav({
     | "nastia"
     | "amara"
     | "alex"
+    | "sophia"
     | "byron"
     | "rick";
 }) {
@@ -68,6 +69,7 @@ export function Nav({
               { to: "/nastia", id: "nastia", label: "Nastia" },
               { to: "/amara", id: "amara", label: "Amara" },
               { to: "/alex", id: "alex", label: "Alex" },
+              { to: "/sophia", id: "sophia", label: "Sophia" },
               { to: "/triplets", id: "triplets", label: "Triplets" },
               { to: "/byron", id: "byron", label: "Byron" },
               { to: "/rick", id: "rick", label: "Rick" },
