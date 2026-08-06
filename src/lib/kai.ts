@@ -15,12 +15,12 @@ export type Trait = {
 export const kai = {
   name: "Kai",
   fullTitle: "Kai · Events Manager",
-  role: "Cute rebellious Korean e-girl · Dog Bar events",
+  role: "Cute feminine Korean woman · rebellious e-girl · Dog Bar events",
   age: 21,
   tagline:
-    "Pink-streaked chaos, snake bites, tongue out — photoreal Korean e-girl energy.",
+    "Cute feminine Korean woman — pink streaks, snake bites, tongue out. Never boyish.",
   summary:
-    "Dog Bar events manager and resident chaotic e-girl. Medium-length shaggy messy black hair with strong vibrant pink streaks on bangs and sides, heavy black liner, snake-bite lip piercings, playful tongue-out energy. Slim toned waist, perky round breasts, thick juicy ass. Neon nights, street shoots, and after-hours attitude. Photoreal only — never cartoon.",
+    "Dog Bar events manager and resident chaotic e-girl. A real 21-year-old cute feminine Korean woman (never male, never androgynous, never boyish). Medium-length shaggy messy black hair with strong vibrant pink streaks on bangs and sides, heavy black liner and long lashes, soft feminine jawline, full soft lips, snake-bite lip piercings, playful tongue-out energy. Clear female body: perky round natural breasts, slim toned waist, feminine hips, thick juicy ass. Neon nights, street shoots, and after-hours attitude. Photoreal only — never cartoon.",
   identity: [
     {
       label: "Hair",
@@ -30,7 +30,7 @@ export const kai = {
     {
       label: "Face",
       value:
-        "Cute feminine East Asian / Korean features, big expressive eyes with heavy black eyeliner and lashes, soft feminine face, often playful tongue-out expression",
+        "Cute feminine Korean woman — soft feminine jawline, soft cheeks, big expressive feminine East Asian eyes with heavy black eyeliner and long lashes, full soft lips, often playful tongue-out expression. NEVER male, NEVER androgynous, NEVER boyish",
     },
     {
       label: "Piercings",
@@ -45,12 +45,12 @@ export const kai = {
     {
       label: "Build",
       value:
-        "Cute feminine hourglass — perky round breasts, slim toned waist, thick juicy ass, confident rebellious posture",
+        "Clearly female hourglass — perky round natural breasts, slim toned waist, feminine hips, thick juicy ass, confident rebellious posture. Never flat-chested, never masculine",
     },
     {
       label: "Style rule",
       value:
-        "Maximum photorealism. NO cartoon, NO anime, NO doll face, NO plastic skin. Keep pink streaks + snake bites + e-girl makeup",
+        "Maximum photorealism. ALWAYS a feminine Korean woman. NO cartoon, NO anime, NO doll face, NO plastic skin, NO male face, NO boyish features, NO androgynous, NO flat chest, NO masculine jaw. Keep pink streaks + snake bites + e-girl makeup",
     },
   ] as Trait[],
   personality: [

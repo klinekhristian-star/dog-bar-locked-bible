@@ -10,7 +10,7 @@ export const Route = createFileRoute("/kai")({
   }),
 });
 
-const lockPrompt = `Ultra-photorealistic 8K live-action photograph of a real 21-year-old woman named Kai, cute feminine rebellious Korean e-girl and Dog Bar events manager. Medium-length shaggy messy voluminous black hair with strong vibrant pink streaks heavily concentrated on front bangs and sides, wind-blown strands falling over face, choppy layered bangs. Soft feminine East Asian / Korean facial features, big expressive eyes with heavy black eyeliner and long lashes. Snake-bite lip piercings (two silver studs under lower lip), optional tongue piercing visible when tongue out. Smooth glowing realistic skin with natural texture and pores. Perky round breasts, slim toned waist, thick juicy ass, confident rebellious posture. Playful tongue-out e-girl energy. Shot on ARRI Alexa Mini LF, 50mm lens, f/2.0, cinematic neon or natural filmic color, subsurface scattering, maximum photorealism. NO cartoon, NO anime, NO doll face, NO plastic skin, NO CGI, NO stylized features.`;
+const lockPrompt = `Ultra-photorealistic 8K live-action photograph of a real 21-year-old cute feminine Korean woman named Kai (never male, never androgynous, never boyish), rebellious e-girl and Dog Bar events manager. Medium-length shaggy messy voluminous black hair with strong vibrant pink streaks heavily concentrated on front bangs and sides, wind-blown strands falling over face, choppy layered bangs. Soft feminine Korean facial features, soft jawline, soft cheeks, big expressive feminine East Asian eyes with heavy black eyeliner and long lashes, full soft lips. Snake-bite lip piercings (two silver studs under lower lip), optional tongue piercing visible when tongue out. Smooth glowing realistic skin with natural texture and pores. Clear female body: perky round natural breasts, slim toned waist, feminine hips, thick juicy ass, confident rebellious posture. Playful tongue-out e-girl energy. Shot on ARRI Alexa Mini LF, 50mm lens, f/2.0, cinematic neon or natural filmic color, subsurface scattering, maximum photorealism. NO cartoon, NO anime, NO doll face, NO plastic skin, NO CGI, NO male face, NO boyish features, NO androgynous, NO flat chest, NO masculine jaw.`;
 
 function KaiPage() {
   return (
@@ -30,7 +30,7 @@ function KaiPage() {
         lockPrompt={lockPrompt}
         portraitSrc="/kai-portrait.jpg"
         portraitAlt="Kai — photoreal Korean e-girl events manager with pink-streaked black hair"
-        portraitCaption="Pink streaks · snake bites · heavy liner · tongue-out chaos · no cartoon"
+        portraitCaption="Feminine Korean woman · pink streaks · snake bites · never boyish · no cartoon"
         accentLabel="Dog Bar · Kai lock"
         defaultLookId="street-peace"
       />
