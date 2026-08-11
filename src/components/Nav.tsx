@@ -15,6 +15,7 @@ export function Nav({
   character?:
     | "rose"
     | "betty"
+    | "thin-betty"
     | "luna"
     | "summer"
     | "marnie"
@@ -56,6 +57,7 @@ export function Nav({
             [
               { to: "/", id: "rose", label: "Rose" },
               { to: "/betty", id: "betty", label: "Betty" },
+              { to: "/thin-betty", id: "thin-betty", label: "Thin Betty" },
               { to: "/luna", id: "luna", label: "Luna" },
               { to: "/summer", id: "summer", label: "Summer" },
               { to: "/marnie", id: "marnie", label: "Marnie" },
