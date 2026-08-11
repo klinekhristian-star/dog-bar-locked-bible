@@ -28,7 +28,7 @@ function KaiPage() {
       <CharacterBible
         character={kai}
         lockPrompt={lockPrompt}
-        portraitSrc="/kai-portrait.jpg"
+        portraitSrc="/kai-portrait.webp"
         portraitAlt="Kai — photoreal Korean e-girl events manager with pink-streaked black hair"
         portraitCaption="Feminine Korean woman · pink streaks · snake bites · never boyish · no cartoon"
         accentLabel="Dog Bar · Kai lock"

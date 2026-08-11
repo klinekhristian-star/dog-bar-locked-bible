@@ -28,7 +28,7 @@ function AlexPage() {
       <CharacterBible
         character={alex}
         lockPrompt={lockPrompt}
-        portraitSrc="/alex-portrait.jpg"
+        portraitSrc="/alex-portrait.webp"
         portraitAlt="Alex Kane — photoreal 22-year-old, messy dark hair, light stubble, steady brown eyes"
         portraitCaption="Messy dark hair · stubble · lean-athletic · Rose’s partner · no cartoon"
         accentLabel="Dog Bar · Alex lock"

@@ -75,7 +75,7 @@ export const triplets = {
       notes:
         "Matching black Dog Bar crop tops + denim shorts, arms around each other, soft smiles, string lights and picnic tables behind. Canonical group hero still.",
       palette: ["#1a1a20", "#f59e0b", "#e8d5b5", "#c4a070"],
-      image: "/triplets-portrait.jpg",
+      image: "/triplets-portrait.webp",
     },
     {
       id: "close",
@@ -84,7 +84,7 @@ export const triplets = {
       notes:
         "Tight three-shot, arms around shoulders, pink ends in hair, paw tattoos visible, warm smiles. Face lock still.",
       palette: ["#f59e0b", "#e8d5b5", "#1a1a20", "#f9a8d4"],
-      image: "/triplets-close.jpg",
+      image: "/triplets-close.webp",
     },
     {
       id: "beach",
@@ -93,7 +93,7 @@ export const triplets = {
       notes:
         "Matching tiny cream string bikinis, wet glowing skin, standing close, ocean behind. Crew beach set.",
       palette: ["#e8d5b5", "#f59e0b", "#3b82f6", "#1a1a20"],
-      image: "/triplets-beach.jpg",
+      image: "/triplets-beach.webp",
     },
     {
       id: "neon",
@@ -102,7 +102,7 @@ export const triplets = {
       notes:
         "Sparkly party dresses — red sequin, black latex mini, gold fringe. Matching pink-blonde waves under pink neon.",
       palette: ["#ff2d55", "#1a1a20", "#d4a017", "#c084fc"],
-      image: "/triplets-neon.jpg",
+      image: "/triplets-neon.webp",
     },
     {
       id: "hike",
@@ -111,7 +111,7 @@ export const triplets = {
       notes:
         "Hiking gear (tanks, cargo shorts, backpacks), slightly sweaty, pink-blonde hair, focused looks on the trail.",
       palette: ["#2d5a27", "#c4a070", "#e8d5b5", "#1a1a20"],
-      image: "/triplets-hike.jpg",
+      image: "/triplets-hike.webp",
     },
   ] as Look[],
   relationships: [

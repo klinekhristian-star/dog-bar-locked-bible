@@ -73,7 +73,7 @@ export const kai = {
       notes:
         "Pink mesh crop over black bra, black cargo with chain, “Kai” belt tab, tongue out + peace sign. Canonical outdoor hero.",
       palette: ["#ff2d95", "#0a0a0c", "#f5e6f0", "#ff4d8d"],
-      image: "/kai-portrait.jpg",
+      image: "/kai-portrait.webp",
     },
     {
       id: "street-phone",
@@ -82,7 +82,7 @@ export const kai = {
       notes:
         "Black/pink fishnet crop, black lace bra, pink hoop, flip phone, tongue out smile, checkered belt straps.",
       palette: ["#ff2d95", "#0a0a0c", "#c084fc", "#1a1a20"],
-      image: "/kai-street.jpg",
+      image: "/kai-street.webp",
     },
     {
       id: "brat",
@@ -91,7 +91,7 @@ export const kai = {
       notes:
         "Black mesh long-sleeve + BRAT crop, micro pleated skirt, torn fishnets, combat boots, padlock choker.",
       palette: ["#0a0a0c", "#ff2d95", "#e8d5b5", "#6b7280"],
-      image: "/kai-brat.jpg",
+      image: "/kai-brat.webp",
     },
     {
       id: "car-mirror",
@@ -100,7 +100,7 @@ export const kai = {
       notes:
         "White Dog Bar crop tank, red plaid mini, applying lipstick in rear-view. Events night energy.",
       palette: ["#ffffff", "#b91c1c", "#ff2d95", "#0a0a0c"],
-      image: "/kai-car.jpg",
+      image: "/kai-car.webp",
     },
     {
       id: "bar-rail",
@@ -109,7 +109,7 @@ export const kai = {
       notes:
         "Black micro crop, shorts, leaning on marble bar under DOG BAR neon, messy pink-black hair flying.",
       palette: ["#ff2d95", "#0a0a0c", "#c084fc", "#1a1a20"],
-      image: "/kai-bar.jpg",
+      image: "/kai-bar.webp",
     },
     {
       id: "wet-lock",
@@ -118,7 +118,7 @@ export const kai = {
       notes:
         "Close-up wet hair, pink streaks, snake bites, tongue out, water droplets on skin. Primary face lock still.",
       palette: ["#7f1d1d", "#ff2d95", "#0a0a0c", "#e5e5e5"],
-      image: "/kai-wet.jpg",
+      image: "/kai-wet.webp",
     },
     {
       id: "face-close",
@@ -127,7 +127,7 @@ export const kai = {
       notes:
         "Extreme close-up identity lock — pink bang streak, heavy liner, tongue piercing, glossy lips.",
       palette: ["#ff2d95", "#0a0a0c", "#f5d0c5", "#1a1a20"],
-      image: "/kai-face.jpg",
+      image: "/kai-face.webp",
     },
     {
       id: "bedroom",
@@ -136,7 +136,7 @@ export const kai = {
       notes:
         "Black tank, frayed denim micro shorts, kneeling on rug, tongue out over shoulder. Soft warm lamp light.",
       palette: ["#f5e6d3", "#0a0a0c", "#ff2d95", "#c4a070"],
-      image: "/kai-bedroom.jpg",
+      image: "/kai-bedroom.webp",
     },
     {
       id: "dancefloor",

@@ -73,7 +73,7 @@ export const alex = {
       notes:
         "Canonical face lock — messy dark brown hair, light stubble, steady brown eyes, soft almost-smile.",
       palette: ["#1a1a20", "#c4a070", "#e8d5b5", "#4a5560"],
-      image: "/alex-portrait.jpg",
+      image: "/alex-portrait.webp",
     },
     {
       id: "porch",
@@ -81,7 +81,7 @@ export const alex = {
       setting: "Cabin porch · golden hour",
       notes: "Shirtless, towel on shoulder, lean-athletic lock, sunset light.",
       palette: ["#f59e0b", "#c4a070", "#1a1a20", "#e8d5b5"],
-      image: "/alex-porch.jpg",
+      image: "/alex-porch.webp",
     },
     {
       id: "kitchen",
@@ -89,7 +89,7 @@ export const alex = {
       setting: "Morning window light",
       notes: "Grey tee, coffee mug, quiet half-smile, domestic calm.",
       palette: ["#c4a070", "#e8d5b5", "#6b7c5c", "#1a1a20"],
-      image: "/alex-kitchen.jpg",
+      image: "/alex-kitchen.webp",
     },
     {
       id: "drive",
@@ -97,7 +97,7 @@ export const alex = {
       setting: "Car interior · golden hour",
       notes: "One hand on wheel, open window, coastal road behind, calm focus.",
       palette: ["#f59e0b", "#c4a070", "#3b82f6", "#1a1a20"],
-      image: "/alex-drive.jpg",
+      image: "/alex-drive.webp",
     },
     {
       id: "wood",
@@ -105,7 +105,7 @@ export const alex = {
       setting: "Mountain cabin yard · overcast",
       notes: "Shirtless mid-swing with axe, wood chips, real work muscle.",
       palette: ["#6b7c5c", "#a8b0b8", "#c4a070", "#1a1a20"],
-      image: "/alex-wood.jpg",
+      image: "/alex-wood.webp",
     },
     {
       id: "repair",
@@ -113,7 +113,7 @@ export const alex = {
       setting: "Porch work · daylight",
       notes: "Shirtless with hammer and tool belt, focused on a board.",
       palette: ["#c4a070", "#6b7c5c", "#e8d5b5", "#1a1a20"],
-      image: "/alex-repair.jpg",
+      image: "/alex-repair.webp",
     },
     {
       id: "couch",
@@ -121,7 +121,7 @@ export const alex = {
       setting: "Lamp-lit living room",
       notes: "Worn sweater, book in hand, quiet domestic still.",
       palette: ["#c4a070", "#1a1a20", "#6b5c4c", "#e8d5b5"],
-      image: "/alex-couch.jpg",
+      image: "/alex-couch.webp",
     },
     {
       id: "rose-bar",
@@ -129,7 +129,7 @@ export const alex = {
       setting: "Dog Bar rail · warm practicals",
       notes: "Beside Rose (twin pigtails, purple streaks), hand near her waist, couple lock.",
       palette: ["#1a1a20", "#7c3aed", "#c4a070", "#ff2d6a"],
-      image: "/alex-rose-bar.jpg",
+      image: "/alex-rose-bar.webp",
     },
     {
       id: "rose-cabin",
@@ -137,7 +137,7 @@ export const alex = {
       setting: "Cabin kitchen · soft morning",
       notes: "Forehead near Rose’s, quiet intimate calm, her in open flannel.",
       palette: ["#c4a070", "#e8d5b5", "#7c3aed", "#1a1a20"],
-      image: "/alex-rose-cabin.jpg",
+      image: "/alex-rose-cabin.webp",
     },
   ] as Look[],
   relationships: [

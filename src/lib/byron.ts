@@ -73,7 +73,7 @@ export const byron = {
       notes:
         "Shirtless, grey Nike compression shorts, arms crossed, dog tag, confident half-smile. Canonical hero still.",
       palette: ["#6b7280", "#2a1810", "#e5e5e5", "#c4a070"],
-      image: "/byron-portrait.jpg",
+      image: "/byron-portrait.webp",
     },
     {
       id: "gym-flex",
@@ -82,7 +82,7 @@ export const byron = {
       notes:
         "Black shorts, double bicep flex pose, dog tag, friendly smile, veins and sheen.",
       palette: ["#0a0a0c", "#2a1810", "#c4a070", "#1a1a20"],
-      image: "/byron-gym.jpg",
+      image: "/byron-gym.webp",
     },
     {
       id: "smile-close",
@@ -91,7 +91,7 @@ export const byron = {
       notes:
         "Chest-up portrait, big white smile, glossy skin, dog tag centered. Warm lock still.",
       palette: ["#1a120c", "#2a1810", "#c0c0c0", "#0a0a0c"],
-      image: "/byron-smile.jpg",
+      image: "/byron-smile.webp",
     },
     {
       id: "intense",
@@ -100,7 +100,7 @@ export const byron = {
       notes:
         "Hard door stare, no smile, jaw set, dog tag, massive delts filling frame.",
       palette: ["#0a0a0c", "#1a120c", "#8b7355", "#c0c0c0"],
-      image: "/byron-intense.jpg",
+      image: "/byron-intense.webp",
     },
     {
       id: "studio",
@@ -109,7 +109,7 @@ export const byron = {
       notes:
         "Hands on hips energy, big smile, oiled chest, dog tag. Hero press still.",
       palette: ["#374151", "#2a1810", "#c0c0c0", "#e5e5e5"],
-      image: "/byron-studio.jpg",
+      image: "/byron-studio.webp",
     },
     {
       id: "close-dark",
@@ -118,7 +118,7 @@ export const byron = {
       notes:
         "Tight portrait, serious eyes, thick neck and shoulders, dog tag. Identity face lock.",
       palette: ["#1a120c", "#0a0a0c", "#c0c0c0", "#4a3728"],
-      image: "/byron-close.jpg",
+      image: "/byron-close.webp",
     },
     {
       id: "power",
@@ -127,7 +127,7 @@ export const byron = {
       notes:
         "Three-quarter torso, intense brow, dog tag, extreme muscle density.",
       palette: ["#2a1810", "#0a0a0c", "#c0c0c0", "#6b5344"],
-      image: "/byron-power.jpg",
+      image: "/byron-power.webp",
     },
     {
       id: "door",

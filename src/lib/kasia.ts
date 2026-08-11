@@ -73,7 +73,7 @@ export const kasia = {
       notes:
         "Canonical face lock — ash-blonde, grey-blue eyes, restrained almost-smile, emerald slip dress.",
       palette: ["#0f3d2e", "#c8d0d8", "#6b4c7a", "#1a1a20"],
-      image: "/kasia-portrait.jpg",
+      image: "/kasia-portrait.webp",
     },
     {
       id: "lounge",
@@ -81,7 +81,7 @@ export const kasia = {
       setting: "Purple lounge · full pose",
       notes: "Emerald satin slip, legs crossed, black heels, cool almost-smile.",
       palette: ["#0f3d2e", "#5b3a6e", "#c8d0d8", "#1a1a20"],
-      image: "/kasia-lounge.jpg",
+      image: "/kasia-lounge.webp",
     },
     {
       id: "cafe",
@@ -89,7 +89,7 @@ export const kasia = {
       setting: "Overcast window light",
       notes: "White shirt unbuttoned, black waistband, coffee, Slavic window key.",
       palette: ["#c8d0d8", "#a8b0b8", "#f5f0eb", "#1a1a20"],
-      image: "/kasia-cafe.jpg",
+      image: "/kasia-cafe.webp",
     },
     {
       id: "cafe-open",
@@ -97,7 +97,7 @@ export const kasia = {
       setting: "Window table · soft day",
       notes: "White shirt fully open, same cool face lock, coffee in frame.",
       palette: ["#c8d0d8", "#f5f0eb", "#1a1a20", "#a8b0b8"],
-      image: "/kasia-cafe-open.jpg",
+      image: "/kasia-cafe-open.webp",
     },
     {
       id: "rain",
@@ -105,7 +105,7 @@ export const kasia = {
       setting: "Wet neon street · night",
       notes: "Black leather mini dress, boots, rain, full-length neon reflections.",
       palette: ["#1a1a20", "#3b82f6", "#ef4444", "#c8d0d8"],
-      image: "/kasia-rain.jpg",
+      image: "/kasia-rain.webp",
     },
     {
       id: "rain-kneel",
@@ -113,7 +113,7 @@ export const kasia = {
       setting: "Wet street · close",
       notes: "Black leather mini, kneeling on wet asphalt, cool gaze at camera.",
       palette: ["#1a1a20", "#3b82f6", "#ef4444", "#c8d0d8"],
-      image: "/kasia-rain-kneel.jpg",
+      image: "/kasia-rain-kneel.webp",
     },
     {
       id: "rooftop",
@@ -121,7 +121,7 @@ export const kasia = {
       setting: "City balcony · sunset",
       notes: "Cream tank and jeans, railing, soft almost-smile, skyline bokeh.",
       palette: ["#e8d5b5", "#f59e0b", "#c8d0d8", "#1a1a20"],
-      image: "/kasia-rooftop.jpg",
+      image: "/kasia-rooftop.webp",
     },
     {
       id: "rooftop-shorts",
@@ -129,7 +129,7 @@ export const kasia = {
       setting: "Balcony · golden hour",
       notes: "Cream ribbed tank, denim shorts, lean-athletic lock clear.",
       palette: ["#e8d5b5", "#f59e0b", "#c8d0d8", "#1a1a20"],
-      image: "/kasia-rooftop-shorts.jpg",
+      image: "/kasia-rooftop-shorts.webp",
     },
   ] as Look[],
   relationships: [

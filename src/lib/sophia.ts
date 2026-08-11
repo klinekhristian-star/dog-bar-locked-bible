@@ -73,7 +73,7 @@ export const sophia = {
       notes:
         "Canonical lock — long dark hair lighter ends, black crop top, lean on rail, soft smile, string lights.",
       palette: ["#f59e0b", "#1a1a20", "#c4a070", "#e8d5b5"],
-      image: "/sophia-portrait.jpg",
+      image: "/sophia-portrait.webp",
     },
     {
       id: "rail",
@@ -81,7 +81,7 @@ export const sophia = {
       setting: "Patio rail · sunset",
       notes: "Black crop and jeans, arms on wood rail, warm sun on face.",
       palette: ["#f59e0b", "#1a1a20", "#c4a070", "#6b7c5c"],
-      image: "/sophia-rail.jpg",
+      image: "/sophia-rail.webp",
     },
     {
       id: "walk",
@@ -89,7 +89,7 @@ export const sophia = {
       setting: "Picnic tables · daylight",
       notes: "Black mini dress, walking toward camera, string lights and tables bokeh.",
       palette: ["#1a1a20", "#6b7c5c", "#f59e0b", "#e8d5b5"],
-      image: "/sophia-walk.jpg",
+      image: "/sophia-walk.webp",
     },
     {
       id: "lean",
@@ -97,7 +97,7 @@ export const sophia = {
       setting: "Patio · playful",
       notes: "Black mini, leaning toward camera, hair in motion, soft smile.",
       palette: ["#1a1a20", "#6b7c5c", "#f59e0b", "#c4a070"],
-      image: "/sophia-lean.jpg",
+      image: "/sophia-lean.webp",
     },
     {
       id: "close",
@@ -105,7 +105,7 @@ export const sophia = {
       setting: "Soft window light",
       notes: "Face lock — dark eyes, glossy lips, long hair with lighter ends.",
       palette: ["#c4a070", "#e8d5b5", "#1a1a20", "#a8b0b8"],
-      image: "/sophia-close.jpg",
+      image: "/sophia-close.webp",
     },
     {
       id: "soft",
@@ -113,7 +113,7 @@ export const sophia = {
       setting: "Warm indoor bokeh",
       notes: "Close three-quarter, glossy lips, soft expression.",
       palette: ["#c4a070", "#1a1a20", "#e8d5b5", "#6b5c4c"],
-      image: "/sophia-soft.jpg",
+      image: "/sophia-soft.webp",
     },
     {
       id: "tank",
@@ -121,7 +121,7 @@ export const sophia = {
       setting: "Indoor wall · soft light",
       notes: "Black tank, shoulder lean, warm smile, petite lock clear.",
       palette: ["#1a1a20", "#c4a070", "#e8d5b5", "#4a5560"],
-      image: "/sophia-tank.jpg",
+      image: "/sophia-tank.webp",
     },
     {
       id: "green",
@@ -129,7 +129,7 @@ export const sophia = {
       setting: "Hotel bed · window light",
       notes: "Green lace lingerie, tongue out, playful, city view.",
       palette: ["#0f3d2e", "#e8d5b5", "#3b82f6", "#1a1a20"],
-      image: "/sophia-green.jpg",
+      image: "/sophia-green.webp",
     },
     {
       id: "green-sheer",
@@ -137,7 +137,7 @@ export const sophia = {
       setting: "Hotel bed · daytime",
       notes: "Sheer green lace bodysuit, playful tongue, arms in hair.",
       palette: ["#0f3d2e", "#e8d5b5", "#3b82f6", "#1a1a20"],
-      image: "/sophia-green-sheer.jpg",
+      image: "/sophia-green-sheer.webp",
     },
     {
       id: "prone",
@@ -145,7 +145,7 @@ export const sophia = {
       setting: "White sheets · soft day",
       notes: "Prone on bed, green thong, looking at camera — petite not buxom.",
       palette: ["#e8d5b5", "#0f3d2e", "#c4a070", "#1a1a20"],
-      image: "/sophia-prone.jpg",
+      image: "/sophia-prone.webp",
     },
   ] as Look[],
   relationships: [

@@ -72,7 +72,7 @@ export const vixen = {
       notes:
         "Canonical face lock — messy high ponytail, hazel eyes, smoky makeup, septum, golden-tan glow.",
       palette: ["#1a1a20", "#c4a070", "#ff2d55", "#e8d5b5"],
-      image: "/vixen-portrait.jpg",
+      image: "/vixen-portrait.webp",
     },
     {
       id: "beach",
@@ -81,7 +81,7 @@ export const vixen = {
       notes:
         "Tiny cream string bikini, wet tan skin, high ponytail, playful smirk, ocean behind. Crew beach set.",
       palette: ["#e8d5b5", "#f59e0b", "#3b82f6", "#1a1a20"],
-      image: "/vixen-beach.jpg",
+      image: "/vixen-beach.webp",
     },
     {
       id: "patio",
@@ -90,7 +90,7 @@ export const vixen = {
       notes:
         "Black crop top + denim shorts, leaning on wooden counter, string lights, confident smirk.",
       palette: ["#1a1a20", "#f59e0b", "#e8d5b5", "#c4a070"],
-      image: "/vixen-patio.jpg",
+      image: "/vixen-patio.webp",
     },
     {
       id: "bar",
@@ -99,7 +99,7 @@ export const vixen = {
       notes:
         "Black tank + jeans, wiping the bar, red/blue neon spill, seductive look at camera.",
       palette: ["#1a1a20", "#ff2d55", "#3b82f6", "#c4a070"],
-      image: "/vixen-bar.jpg",
+      image: "/vixen-bar.webp",
     },
   ] as Look[],
   relationships: [

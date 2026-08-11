@@ -73,7 +73,7 @@ export const rose = {
       notes:
         "Oversized faded black band tee (Buzzin), polishing the bar with a cloth. Twin tails with purple ends, dark matte lips, rose tattoo visible at hip. Canonical work look.",
       palette: ["#1a1218", "#2a1a30", "#b84fd4", "#3d3028"],
-      image: "/rose-service.jpg",
+      image: "/rose-service.webp",
     },
     {
       id: "bar-lock",
@@ -90,7 +90,7 @@ export const rose = {
       notes:
         "White ribbed sports bra, beige shorts, big freckled smile. Outdoor lock from earlier canon.",
       palette: ["#f5f5f5", "#c4b5a0", "#1a1a20", "#7a3a8f"],
-      image: "/rose-outdoor.jpg",
+      image: "/rose-outdoor.webp",
     },
     {
       id: "lace-studio",

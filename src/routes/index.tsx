@@ -28,7 +28,7 @@ function RosePage() {
       <CharacterBible
         character={rose}
         lockPrompt={lockPrompt}
-        portraitSrc="/rose-service.jpg"
+        portraitSrc="/rose-service.webp"
         portraitAlt="Rose — photoreal Dog Bar goth bartender, twin pigtails, purple streaks"
         portraitCaption="Freckles · twin tails · purple streaks · rose tattoo · tongue piercing · no cartoon"
         accentLabel="Dog Bar · Photoreal lock · Ref pack v2"

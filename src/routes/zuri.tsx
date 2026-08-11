@@ -28,7 +28,7 @@ function ZuriPage() {
       <CharacterBible
         character={zuri}
         lockPrompt={lockPrompt}
-        portraitSrc="/zuri-portrait.jpg"
+        portraitSrc="/zuri-portrait.webp"
         portraitAlt="Zuri — photoreal petite Black beauty with huge natural afro in white slip dress"
         portraitCaption="Huge afro · tiny waist · deep chocolate skin · radiant smile · no cartoon"
         accentLabel="Dog Bar · Zuri lock"

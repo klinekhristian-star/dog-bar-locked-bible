@@ -73,7 +73,7 @@ export const rick = {
       notes:
         "Shirtless, blue jeans, brown belt, hand on railing and hip, city lights. Canonical hero still.",
       palette: ["#1e3a5f", "#3b82f6", "#2a1810", "#c4a070"],
-      image: "/rick-portrait.jpg",
+      image: "/rick-portrait.webp",
     },
     {
       id: "cross",
@@ -82,7 +82,7 @@ export const rick = {
       notes:
         "Arms crossed over hairy chest, tight blue jeans, soft smile, night city purple/orange lights.",
       palette: ["#312e81", "#f59e0b", "#2a1810", "#3b82f6"],
-      image: "/rick-cross.jpg",
+      image: "/rick-cross.webp",
     },
     {
       id: "belt",
@@ -91,7 +91,7 @@ export const rick = {
       notes:
         "Hand hooked in jeans waistband, other arm relaxed, thick chest hair, confident stance.",
       palette: ["#0a0a0c", "#3b82f6", "#c4a070", "#7c3aed"],
-      image: "/rick-belt.jpg",
+      image: "/rick-belt.webp",
     },
     {
       id: "close",
@@ -100,7 +100,7 @@ export const rick = {
       notes:
         "Torso-up portrait, full beard, dense chest hair, serious eyes, blue jeans at frame edge.",
       palette: ["#0a0a0c", "#2a1810", "#3b82f6", "#e5e5e5"],
-      image: "/rick-close.jpg",
+      image: "/rick-close.webp",
     },
     {
       id: "front",
@@ -109,7 +109,7 @@ export const rick = {
       notes:
         "Straight-on power stance, hands at sides, abs and V-line under hair, jeans low on hips.",
       palette: ["#0a0a0c", "#1a120c", "#3b82f6", "#c4a070"],
-      image: "/rick-front.jpg",
+      image: "/rick-front.webp",
     },
     {
       id: "lean",
@@ -118,7 +118,7 @@ export const rick = {
       notes:
         "Slight lean, hands near pockets, warm skin sheen on delts, full beard lock.",
       palette: ["#0a0a0c", "#2a1810", "#60a5fa", "#e8d5b5"],
-      image: "/rick-lean.jpg",
+      image: "/rick-lean.webp",
     },
     {
       id: "stand",
@@ -127,7 +127,7 @@ export const rick = {
       notes:
         "Classic centerfold stand, dense torso hair, blue jeans, neutral smolder.",
       palette: ["#0a0a0c", "#1e3a5f", "#3b82f6", "#2a1810"],
-      image: "/rick-stand.jpg",
+      image: "/rick-stand.webp",
     },
     {
       id: "night",
@@ -136,7 +136,7 @@ export const rick = {
       notes:
         "Serious brow, thick beard, chest hair catching side light — identity face lock.",
       palette: ["#0a0a0c", "#1a120c", "#3b82f6", "#c0c0c0"],
-      image: "/rick-night.jpg",
+      image: "/rick-night.webp",
     },
     {
       id: "bar",

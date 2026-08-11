@@ -73,7 +73,7 @@ export const marnie = {
       notes:
         "Cream deep-V crop top + denim shorts, wind in short auburn hair, big natural smile. Canonical outdoor hero still.",
       palette: ["#f59e0b", "#e8d5b5", "#1a1a20", "#c4a070"],
-      image: "/marnie-rooftop.jpg",
+      image: "/marnie-rooftop.webp",
     },
     {
       id: "dog",
@@ -82,7 +82,7 @@ export const marnie = {
       notes:
         "White tank + jeans, golden retriever at her side, soft smile looking down while scratching its head. Full natural breasts softly outlined under the tank.",
       palette: ["#e8d5b5", "#3b82f6", "#c4a070", "#2a1810"],
-      image: "/marnie-dog.jpg",
+      image: "/marnie-dog.webp",
     },
     {
       id: "beach",
@@ -91,7 +91,7 @@ export const marnie = {
       notes:
         "Tiny cream micro bikini, wet freckled skin, soft smile, ocean and waves behind. Warm golden light.",
       palette: ["#e8d5b5", "#f59e0b", "#3b82f6", "#c4a070"],
-      image: "/marnie-beach.jpg",
+      image: "/marnie-beach.webp",
     },
     {
       id: "kitchen",
@@ -100,7 +100,7 @@ export const marnie = {
       notes:
         "Oversized faded Fleetwood Mac band tee only, coffee mug, bare legs, quiet half-smile looking out the window.",
       palette: ["#c4a070", "#2a1810", "#e8d5b5", "#1a1a20"],
-      image: "/marnie-kitchen.jpg",
+      image: "/marnie-kitchen.webp",
     },
     {
       id: "rain",
@@ -109,7 +109,7 @@ export const marnie = {
       notes:
         "Black leather jacket over thin white tank, dark jeans, rain on freckles and jacket. Soft confident look at camera. Neon spill.",
       palette: ["#0a0a0c", "#3b82f6", "#c4a070", "#1a1a20"],
-      image: "/marnie-rain.jpg",
+      image: "/marnie-rain.webp",
     },
     {
       id: "paris",

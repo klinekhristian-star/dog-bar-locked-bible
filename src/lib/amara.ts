@@ -73,7 +73,7 @@ export const amara = {
       notes:
         "Canonical lock — long black hair, warm bronze skin, gold sequin bikini, roller skates, hands on hips, confident smile.",
       palette: ["#d4af37", "#1a1a20", "#3b82f6", "#c4a070"],
-      image: "/amara-portrait.jpg",
+      image: "/amara-portrait.webp",
     },
     {
       id: "skate",
@@ -81,7 +81,7 @@ export const amara = {
       setting: "Beach path · bright sun",
       notes: "Gold sequin bikini, gold roller skates, hair in the wind, big smile.",
       palette: ["#d4af37", "#f59e0b", "#3b82f6", "#1a1a20"],
-      image: "/amara-skate.jpg",
+      image: "/amara-skate.webp",
     },
     {
       id: "skate-run",
@@ -89,7 +89,7 @@ export const amara = {
       setting: "Boardwalk · ocean side",
       notes: "Rolling toward camera, arms out, gold bikini, palms and sea behind.",
       palette: ["#d4af37", "#3b82f6", "#e8d5b5", "#1a1a20"],
-      image: "/amara-skate-run.jpg",
+      image: "/amara-skate-run.webp",
     },
     {
       id: "skate-kick",
@@ -97,7 +97,7 @@ export const amara = {
       setting: "Beach promenade · action",
       notes: "One leg kicked high, gold skate in air, joyful full-body energy.",
       palette: ["#d4af37", "#f59e0b", "#3b82f6", "#1a1a20"],
-      image: "/amara-skate-kick.jpg",
+      image: "/amara-skate-kick.webp",
     },
     {
       id: "skate-sunset",
@@ -105,7 +105,7 @@ export const amara = {
       setting: "Palm path · golden hour",
       notes: "Looking back over shoulder, gold micro bikini, sunset ocean light.",
       palette: ["#d4af37", "#f59e0b", "#c4a070", "#1a1a20"],
-      image: "/amara-skate-sunset.jpg",
+      image: "/amara-skate-sunset.webp",
     },
     {
       id: "lingerie",
@@ -113,7 +113,7 @@ export const amara = {
       setting: "Luxury hotel room · warm lamps",
       notes: "Red satin bra and panties, kneeling on white bed, soft seductive look.",
       palette: ["#b91c1c", "#f5f0eb", "#c4a070", "#1a1a20"],
-      image: "/amara-lingerie.jpg",
+      image: "/amara-lingerie.webp",
     },
     {
       id: "waterfall",
@@ -121,7 +121,7 @@ export const amara = {
       setting: "Jungle falls · wet shirt",
       notes: "Soaked white button-down, denim shorts, wet black hair, bright smile.",
       palette: ["#2d5a3d", "#e8d5b5", "#3b82f6", "#1a1a20"],
-      image: "/amara-waterfall.jpg",
+      image: "/amara-waterfall.webp",
     },
     {
       id: "rooftop",
@@ -129,7 +129,7 @@ export const amara = {
       setting: "City rooftop bar · dusk",
       notes: "White deep-V sundress, wind in hair, skyline and ocean behind.",
       palette: ["#f5f0eb", "#f59e0b", "#1a1a20", "#c4a070"],
-      image: "/amara-rooftop.jpg",
+      image: "/amara-rooftop.webp",
     },
     {
       id: "neon",
@@ -137,7 +137,7 @@ export const amara = {
       setting: "Night city · wet asphalt",
       notes: "Tight black mini dress, heels, long black hair, neon pink and blue.",
       palette: ["#1a1a20", "#ff2d6a", "#00e5c0", "#7c3aed"],
-      image: "/amara-neon.jpg",
+      image: "/amara-neon.webp",
     },
     {
       id: "neon-walk",
@@ -145,7 +145,7 @@ export const amara = {
       setting: "Empty wet street · neon signs",
       notes: "Walking toward camera, black mini dress, full-length neon reflections.",
       palette: ["#1a1a20", "#ff2d6a", "#3b82f6", "#7c3aed"],
-      image: "/amara-neon-walk.jpg",
+      image: "/amara-neon-walk.webp",
     },
   ] as Look[],
   relationships: [

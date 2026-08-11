@@ -72,7 +72,7 @@ export const luna = {
       notes:
         "Tight black short-sleeve scoop top, dark jeans, hands on thighs, full afro, direct gaze. Canonical manager lock.",
       palette: ["#1a1210", "#3d2a20", "#c4a070", "#0a0a0c"],
-      image: "/luna-portrait.jpg",
+      image: "/luna-portrait.webp",
     },
     {
       id: "service-shirt",
@@ -81,7 +81,7 @@ export const luna = {
       notes:
         "Black deep-V button shirt, denim shorts, leaning on rail. Soft smile, full afro volume.",
       palette: ["#2a1a14", "#0a0a0c", "#8b6914", "#c4a070"],
-      image: "/luna-service.jpg",
+      image: "/luna-service.webp",
     },
     {
       id: "house-dog",
@@ -90,7 +90,7 @@ export const luna = {
       notes:
         "Black tank, house Labrador on the bar or beside her. Red DOG BAR neon. Brand image still.",
       palette: ["#1a0a12", "#e02040", "#0a0a0c", "#c4a070"],
-      image: "/luna-dog.jpg",
+      image: "/luna-dog.webp",
     },
     {
       id: "bar-lab",
@@ -99,7 +99,7 @@ export const luna = {
       notes:
         "Black twist-front tank, jeans, hand on hip, Labrador beside her. Confident manager pose.",
       palette: ["#2a1030", "#e02040", "#0a0a0c", "#c4a070"],
-      image: "/luna-bar-dog.jpg",
+      image: "/luna-bar-dog.webp",
     },
     {
       id: "offduty",
@@ -108,7 +108,7 @@ export const luna = {
       notes:
         "Black ribbed tank, frayed denim shorts, kneeling on bed, looking back over shoulder. Soft lamp light.",
       palette: ["#3d3028", "#1a1a20", "#c4a070", "#0a0a0c"],
-      image: "/luna-offduty.jpg",
+      image: "/luna-offduty.webp",
     },
     {
       id: "closing",

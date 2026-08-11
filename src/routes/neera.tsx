@@ -28,7 +28,7 @@ function NeeraPage() {
       <CharacterBible
         character={neera}
         lockPrompt={lockPrompt}
-        portraitSrc="/neera-portrait.jpg"
+        portraitSrc="/neera-portrait.webp"
         portraitAlt="Neera — photoreal young Indian beauty with long black hair and bronze skin"
         portraitCaption="Jet-black hair · bronze glow · bright smile · athletic curves · no cartoon"
         accentLabel="Dog Bar · Neera lock"

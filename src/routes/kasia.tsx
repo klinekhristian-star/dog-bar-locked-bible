@@ -28,7 +28,7 @@ function KasiaPage() {
       <CharacterBible
         character={kasia}
         lockPrompt={lockPrompt}
-        portraitSrc="/kasia-portrait.jpg"
+        portraitSrc="/kasia-portrait.webp"
         portraitAlt="Kasia Novak — photoreal Eastern European ash-blonde with grey-blue eyes"
         portraitCaption="Ash-blonde · grey-blue eyes · cool last-call · no cartoon"
         accentLabel="Dog Bar · Kasia lock"

@@ -73,7 +73,7 @@ export const isla = {
       notes:
         "Canonical lock — brunette waves, freckles, hazel eyes, white tank + denim shorts, easy smile.",
       palette: ["#c4a070", "#e8d5b5", "#1a1a20", "#f59e0b"],
-      image: "/isla-portrait.jpg",
+      image: "/isla-portrait.webp",
     },
     {
       id: "patio",
@@ -82,7 +82,7 @@ export const isla = {
       notes:
         "White cropped tank + cut-off denim shorts, soft patio light, real laugh at camera.",
       palette: ["#f59e0b", "#e8d5b5", "#1a1a20", "#c4a070"],
-      image: "/isla-patio.jpg",
+      image: "/isla-patio.webp",
     },
     {
       id: "beach",
@@ -91,7 +91,7 @@ export const isla = {
       notes:
         "Mauve-brown triangle bikini, wind in hair, freckles locked, soft voluptuous body.",
       palette: ["#e8d5b5", "#f59e0b", "#8b6914", "#1a1a20"],
-      image: "/isla-beach.jpg",
+      image: "/isla-beach.webp",
     },
     {
       id: "street",
@@ -100,7 +100,7 @@ export const isla = {
       notes:
         "Yellow floral sundress, big open smile, freckles, soft curves — daytime energy.",
       palette: ["#f5d76e", "#e8d5b5", "#c4a070", "#1a1a20"],
-      image: "/isla-street.jpg",
+      image: "/isla-street.webp",
     },
     {
       id: "surf",
@@ -109,7 +109,7 @@ export const isla = {
       notes:
         "Metallic silver micro bikini with surfboard, freckled skin, bright smile.",
       palette: ["#c0c0c0", "#e8d5b5", "#3b82f6", "#f59e0b"],
-      image: "/isla-surf.jpg",
+      image: "/isla-surf.webp",
     },
     {
       id: "climb",
@@ -118,7 +118,7 @@ export const isla = {
       notes:
         "Climbing harness and gear, athletic energy, freckles and smile locked.",
       palette: ["#6b7c5c", "#c4a070", "#f59e0b", "#1a1a20"],
-      image: "/isla-climb.jpg",
+      image: "/isla-climb.webp",
     },
     {
       id: "road",
@@ -127,7 +127,7 @@ export const isla = {
       notes:
         "Silver bikini, driving a red convertible along the coast at golden hour.",
       palette: ["#c41e3a", "#c0c0c0", "#f59e0b", "#3b82f6"],
-      image: "/isla-road.jpg",
+      image: "/isla-road.webp",
     },
     {
       id: "soft",
@@ -136,7 +136,7 @@ export const isla = {
       notes:
         "Brown soft top, fuller body read, freckles and smile — quieter intimate still.",
       palette: ["#6b4423", "#e8d5b5", "#c4a070", "#1a1a20"],
-      image: "/isla-soft.jpg",
+      image: "/isla-soft.webp",
     },
   ] as Look[],
   relationships: [

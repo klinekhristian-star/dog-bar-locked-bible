@@ -73,7 +73,7 @@ export const summer = {
       notes:
         "White ribbed sports bra / crop, beige high-waist shorts, long blonde waves, big white smile, hands on thighs. Canonical outdoor hero still.",
       palette: ["#f5f0e8", "#ffffff", "#c4a882", "#c41e3a"],
-      image: "/summer-portrait.jpg",
+      image: "/summer-portrait.webp",
     },
     {
       id: "dirt-road",
@@ -82,7 +82,7 @@ export const summer = {
       notes:
         "Same white sports bra + beige shorts, leaning toward camera, huge smile, wind-blown blonde waves.",
       palette: ["#d4c4a8", "#ffffff", "#c4a882", "#b91c1c"],
-      image: "/summer-road.jpg",
+      image: "/summer-road.webp",
     },
     {
       id: "sky-low",
@@ -91,7 +91,7 @@ export const summer = {
       notes:
         "White crop top, tight black shorts, looking back over shoulder, massive curves silhouetted against sky. Power pose.",
       palette: ["#3b82f6", "#ffffff", "#0a0a0c", "#f5e6d3"],
-      image: "/summer-sky.jpg",
+      image: "/summer-sky.webp",
     },
     {
       id: "dog-bar",
@@ -100,7 +100,7 @@ export const summer = {
       notes:
         "Tight black low-cut bodysuit, glossy skin under pink/blue neon, white standard poodle on the bar. House-regular energy.",
       palette: ["#0a0a0c", "#ff2d95", "#4f46e5", "#f8f8f8"],
-      image: "/summer-bar.jpg",
+      image: "/summer-bar.webp",
     },
     {
       id: "black-set",

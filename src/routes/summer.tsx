@@ -28,7 +28,7 @@ function SummerPage() {
       <CharacterBible
         character={summer}
         lockPrompt={lockPrompt}
-        portraitSrc="/summer-portrait.jpg"
+        portraitSrc="/summer-portrait.webp"
         portraitAlt="Summer Wins — photoreal blonde bombshell in white sports bra outdoor"
         portraitCaption="Blonde waves · blue eyes · massive curves · glossy glam · no cartoon"
         accentLabel="Dog Bar · Summer Wins lock"

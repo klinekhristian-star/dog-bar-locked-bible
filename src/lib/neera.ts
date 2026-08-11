@@ -72,7 +72,7 @@ export const neera = {
       notes:
         "Canonical face lock — long black hair, bronze skin, bright genuine smile, large dark eyes.",
       palette: ["#c4a070", "#1a1a20", "#e8d5b5", "#2a1810"],
-      image: "/neera-portrait.jpg",
+      image: "/neera-portrait.webp",
     },
     {
       id: "beach",
@@ -81,7 +81,7 @@ export const neera = {
       notes:
         "Tiny cream string bikini, wet bronze skin, bright smile, ocean behind. Crew beach set.",
       palette: ["#e8d5b5", "#f59e0b", "#3b82f6", "#1a1a20"],
-      image: "/neera-beach.jpg",
+      image: "/neera-beach.webp",
     },
     {
       id: "patio",
@@ -90,7 +90,7 @@ export const neera = {
       notes:
         "Black crop top + denim shorts, string lights, warm open smile at camera.",
       palette: ["#1a1a20", "#f59e0b", "#e8d5b5", "#c4a070"],
-      image: "/neera-patio.jpg",
+      image: "/neera-patio.webp",
     },
     {
       id: "balcony",
@@ -99,7 +99,7 @@ export const neera = {
       notes:
         "Cream silk slip dress, looking back over shoulder, warm backlight on bronze skin.",
       palette: ["#e8d5b5", "#f59e0b", "#c4a070", "#1a1a20"],
-      image: "/neera-balcony.jpg",
+      image: "/neera-balcony.webp",
     },
   ] as Look[],
   relationships: [

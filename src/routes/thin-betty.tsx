@@ -28,7 +28,7 @@ function ThinBettyPage() {
       <CharacterBible
         character={thinBetty}
         lockPrompt={lockPrompt}
-        portraitSrc="/betty-portrait.jpg"
+        portraitSrc="/betty-portrait.webp"
         portraitAlt="Thin Betty — photoreal ginger CS student with pink cat-eye glasses and freckles after college weight loss"
         portraitCaption="Same freckles · same pink glasses · same ginger waves · 100 lbs lighter · no cartoon"
         accentLabel="Dog Bar · Thin Betty lock (post-college)"

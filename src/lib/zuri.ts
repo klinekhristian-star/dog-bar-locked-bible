@@ -73,7 +73,7 @@ export const zuri = {
       notes:
         "White silk slip mini dress, barefoot in grass, huge afro backlit, radiant smile. Canonical hero still.",
       palette: ["#e8d5a3", "#ffffff", "#2a1810", "#c45c2a"],
-      image: "/zuri-portrait.jpg",
+      image: "/zuri-portrait.webp",
     },
     {
       id: "field-walk",
@@ -82,7 +82,7 @@ export const zuri = {
       notes:
         "Same white slip, walking toward camera through tall grass, afro rim-lit, soft smile.",
       palette: ["#d4b88a", "#f5f0e8", "#1a120c", "#e07a3d"],
-      image: "/zuri-field.jpg",
+      image: "/zuri-field.webp",
     },
     {
       id: "pop-wow",
@@ -91,7 +91,7 @@ export const zuri = {
       notes:
         "Red/white striped off-shoulder crop, micro denim shorts, looking back over shoulder. High-fashion pop energy.",
       palette: ["#ef4444", "#fbbf24", "#3b82f6", "#0a0a0c"],
-      image: "/zuri-pop.jpg",
+      image: "/zuri-pop.webp",
     },
     {
       id: "beach-volley",
@@ -100,7 +100,7 @@ export const zuri = {
       notes:
         "Tiny sky-blue micro bikini, tongue out playful, legs apart, huge afro, net and players soft bokeh.",
       palette: ["#7dd3fc", "#f5e6c8", "#0c4a6e", "#2a1810"],
-      image: "/zuri-beach.jpg",
+      image: "/zuri-beach.webp",
     },
     {
       id: "savannah",
@@ -109,7 +109,7 @@ export const zuri = {
       notes:
         "Sheer white sports bra + white briefs, looking back over shoulder, afro against warm sky.",
       palette: ["#e8c48a", "#ffffff", "#2a1810", "#7c4a1a"],
-      image: "/zuri-savannah-back.jpg",
+      image: "/zuri-savannah-back.webp",
     },
     {
       id: "savannah-front",
@@ -118,7 +118,7 @@ export const zuri = {
       notes:
         "White set front 3/4, hand on hip, radiant smile, huge afro silhouette.",
       palette: ["#d4b070", "#ffffff", "#1a120c", "#c45c2a"],
-      image: "/zuri-savannah.jpg",
+      image: "/zuri-savannah.webp",
     },
     {
       id: "robe",
@@ -127,7 +127,7 @@ export const zuri = {
       notes:
         "Champagne silk robe slipped off shoulders, seated on bed edge, long legs, soft serious eyes.",
       palette: ["#e8d5c4", "#ffffff", "#2a1810", "#c4a070"],
-      image: "/zuri-robe.jpg",
+      image: "/zuri-robe.webp",
     },
     {
       id: "overalls",

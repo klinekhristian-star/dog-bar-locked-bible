@@ -28,7 +28,7 @@ function MarniePage() {
       <CharacterBible
         character={marnie}
         lockPrompt={lockPrompt}
-        portraitSrc="/marnie-portrait.jpg"
+        portraitSrc="/marnie-portrait.webp"
         portraitAlt="Marnie — photoreal short auburn crop freckled girlfriend on rooftop"
         portraitCaption="Auburn crop · freckles · full natural · quiet warmth · no cartoon"
         accentLabel="Dog Bar · Marnie lock"

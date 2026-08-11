@@ -28,7 +28,7 @@ function VixenPage() {
       <CharacterBible
         character={vixen}
         lockPrompt={lockPrompt}
-        portraitSrc="/vixen-portrait.jpg"
+        portraitSrc="/vixen-portrait.webp"
         portraitAlt="Vixen Vale — photoreal curvy Latina bartender with messy dark ponytail and septum"
         portraitCaption="Messy ponytail · golden-tan · hazel + septum · athletic curves · no cartoon"
         accentLabel="Dog Bar · Vixen lock"

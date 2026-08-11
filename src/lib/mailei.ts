@@ -73,7 +73,7 @@ export const mailei = {
       notes:
         "Canonical face lock — long black hair, porcelain skin, soft fuller face, quiet smile. Hero still for identity.",
       palette: ["#f5f0eb", "#1a1a20", "#c4a070", "#e8d5b5"],
-      image: "/mailei-portrait.jpg",
+      image: "/mailei-portrait.webp",
     },
     {
       id: "beach",
@@ -82,7 +82,7 @@ export const mailei = {
       notes:
         "Tiny cream string bikini, wet skin with water droplets, soft serene smile, waves behind. Matches the crew beach set.",
       palette: ["#e8d5b5", "#f59e0b", "#3b82f6", "#1a1a20"],
-      image: "/mailei-beach.jpg",
+      image: "/mailei-beach.webp",
     },
     {
       id: "robe",
@@ -91,7 +91,7 @@ export const mailei = {
       notes:
         "Loosely tied black satin robe, quiet half-smile, soft indoor light. Elegant minimal energy.",
       palette: ["#1a1a20", "#c4a070", "#6b7280", "#e8d5b5"],
-      image: "/mailei-robe.jpg",
+      image: "/mailei-robe.webp",
     },
     {
       id: "patio",
@@ -100,7 +100,7 @@ export const mailei = {
       notes:
         "Black Dog Bar crop top + denim shorts, string lights and picnic tables soft behind, quiet confident smile.",
       palette: ["#1a1a20", "#f59e0b", "#e8d5b5", "#c4a070"],
-      image: "/mailei-patio.jpg",
+      image: "/mailei-patio.webp",
     },
     {
       id: "morning",
@@ -109,7 +109,7 @@ export const mailei = {
       notes:
         "Oversized white button-down only, bare legs, quiet half-smile, clean morning light.",
       palette: ["#f5f0eb", "#1a1a20", "#e8d5b5", "#c4a070"],
-      image: "/mailei-morning.jpg",
+      image: "/mailei-morning.webp",
     },
     {
       id: "night",
@@ -118,7 +118,7 @@ export const mailei = {
       notes:
         "Simple elegant black backless mini dress, soft neon bokeh, quiet confident look, simple gold jewelry.",
       palette: ["#1a1a20", "#ff2d55", "#c084fc", "#e8d5b5"],
-      image: "/mailei-night.jpg",
+      image: "/mailei-night.webp",
     },
   ] as Look[],
   relationships: [

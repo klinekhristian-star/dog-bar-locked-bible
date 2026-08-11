@@ -28,7 +28,7 @@ function ByronPage() {
       <CharacterBible
         character={byron}
         lockPrompt={lockPrompt}
-        portraitSrc="/byron-portrait.jpg"
+        portraitSrc="/byron-portrait.webp"
         portraitAlt='Byron "Bouncer" — photoreal muscular Black security lead with dog tag'
         portraitCaption="Dog tag · massive physique · short waves · goatee · no cartoon"
         accentLabel='Dog Bar · Byron "Bouncer" lock'

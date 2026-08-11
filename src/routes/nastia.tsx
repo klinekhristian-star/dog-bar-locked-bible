@@ -28,7 +28,7 @@ function NastiaPage() {
       <CharacterBible
         character={nastia}
         lockPrompt={lockPrompt}
-        portraitSrc="/nastia-portrait.jpg"
+        portraitSrc="/nastia-portrait.webp"
         portraitAlt="Nastia Novak — photoreal Eastern European ash-blonde, beautiful plus-size"
         portraitCaption="Ash-blonde · grey-blue eyes · warm smile · plus-size lock · no cartoon"
         accentLabel="Dog Bar · Nastia lock"

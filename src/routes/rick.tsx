@@ -28,7 +28,7 @@ function RickPage() {
       <CharacterBible
         character={rick}
         lockPrompt={lockPrompt}
-        portraitSrc="/rick-portrait.jpg"
+        portraitSrc="/rick-portrait.webp"
         portraitAlt='Rick "Daddy" — photoreal bearded muscular VIP in blue jeans'
         portraitCaption="Full beard · dense chest hair · blue jeans · night balcony · no cartoon"
         accentLabel='Dog Bar · Rick "Daddy" lock'

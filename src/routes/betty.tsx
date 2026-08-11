@@ -28,7 +28,7 @@ function BettyPage() {
       <CharacterBible
         character={betty}
         lockPrompt={lockPrompt}
-        portraitSrc="/betty-portrait.jpg"
+        portraitSrc="/betty-portrait.webp"
         portraitAlt="Thick Betty — photoreal ginger bartender with pink cat-eye glasses and freckles"
         portraitCaption="Ginger waves · pink cat-eyes · dense freckles · big smile · no cartoon"
         accentLabel="Dog Bar · Thick Betty lock"

@@ -28,7 +28,7 @@ function LunaPage() {
       <CharacterBible
         character={luna}
         lockPrompt={lockPrompt}
-        portraitSrc="/luna-portrait.jpg"
+        portraitSrc="/luna-portrait.webp"
         portraitAlt="Luna — photoreal Dog Bar manager, voluminous afro, dark chocolate skin"
         portraitCaption="Huge afro · deep chocolate skin · manager presence · photoreal only"
         accentLabel="Dog Bar · Luna lock · Manager"

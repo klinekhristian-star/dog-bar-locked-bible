@@ -28,7 +28,7 @@ function TripletsPage() {
       <CharacterBible
         character={triplets}
         lockPrompt={lockPrompt}
-        portraitSrc="/triplets-portrait.jpg"
+        portraitSrc="/triplets-portrait.webp"
         portraitAlt="The Dog Bar Triplets — three identical platinum-blonde sisters with pink highlights"
         portraitCaption="Platinum + pink · paw tattoos · matching curves · always together · no cartoon"
         accentLabel="Dog Bar · Triplets lock"

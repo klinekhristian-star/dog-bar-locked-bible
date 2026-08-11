@@ -28,7 +28,7 @@ function SophiaPage() {
       <CharacterBible
         character={sophia}
         lockPrompt={lockPrompt}
-        portraitSrc="/sophia-portrait.jpg"
+        portraitSrc="/sophia-portrait.webp"
         portraitAlt="Sophia Chen — short petite East Asian, long dark hair, Dog Relations"
         portraitCaption="Short petite · not buxom · long dark hair · Dog Relations · no cartoon"
         accentLabel="Dog Bar · Sophia lock"

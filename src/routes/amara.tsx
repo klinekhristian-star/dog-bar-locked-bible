@@ -28,7 +28,7 @@ function AmaraPage() {
       <CharacterBible
         character={amara}
         lockPrompt={lockPrompt}
-        portraitSrc="/amara-portrait.jpg"
+        portraitSrc="/amara-portrait.webp"
         portraitAlt="Amara — photoreal South Asian beauty with long black hair and gold bikini"
         portraitCaption="Long black hair · warm bronze skin · athletic-curvy · no cartoon"
         accentLabel="Dog Bar · Amara lock"
