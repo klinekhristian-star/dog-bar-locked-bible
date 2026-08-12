@@ -55,7 +55,7 @@ export function Nav({
         <div className="flex items-center gap-0.5 rounded-full border border-border bg-surface p-1 overflow-x-auto max-w-[78vw] sm:max-w-none">
           {(
             [
-              { to: "/", id: "rose", label: "Rose" },
+              { to: "/rose", id: "rose", label: "Rose" },
               { to: "/betty", id: "betty", label: "Betty" },
               { to: "/thin-betty", id: "thin-betty", label: "Thin Betty" },
               { to: "/luna", id: "luna", label: "Luna" },

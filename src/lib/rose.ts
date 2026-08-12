@@ -40,7 +40,7 @@ export const rose = {
     {
       label: "Tattoo",
       value:
-        "Black rose with stem and leaves on lower abdomen / navel centerline (stem points down) — locked mark every shot",
+        "Small black rose with stem and leaves on the RIGHT side of the lower belly, next to the navel and above the pants line — locked mark every shot",
     },
     {
       label: "Build",

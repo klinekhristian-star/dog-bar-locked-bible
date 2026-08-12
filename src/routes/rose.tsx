@@ -3,7 +3,7 @@ import { Nav } from "@/components/Nav";
 import { CharacterBible } from "@/components/CharacterBible";
 import { rose } from "@/lib/rose";
 
-export const Route = createFileRoute("/")({
+export const Route = createFileRoute("/rose")({
   component: RosePage,
   head: () => ({
     meta: [{ title: "Rose · Dog Bar Character Bible" }],
@@ -30,7 +30,7 @@ function RosePage() {
         lockPrompt={lockPrompt}
         portraitSrc="/rose-service.webp"
         portraitAlt="Rose — photoreal Dog Bar goth bartender, twin pigtails, purple streaks"
-        portraitCaption="Freckles · twin tails · purple streaks · rose tattoo · tongue piercing · no cartoon"
+        portraitCaption="Freckles · twin tails · purple streaks · rose tattoo right of navel · tongue piercing · no cartoon"
         accentLabel="Dog Bar · Photoreal lock · Ref pack v2"
         defaultLookId="service"
       />
